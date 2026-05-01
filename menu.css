@@ -1,0 +1,53 @@
+/* code by :Duluoha Livinus Chima Nonso and Mmesoma ogbozo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, black 20%, purple , black , purple);
+}
+
+.menu-h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.menu-grid-cont {
+    display: flex;
+    text-align: left;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.menu-cont {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: goldenrod;
+}
+
+
+
