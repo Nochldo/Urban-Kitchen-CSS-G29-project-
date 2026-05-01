@@ -1,0 +1,116 @@
+* {
+    margin: 3px;
+    padding: 0px;
+    box-sizing: 5px;
+    border-radius: 2px;
+}
+
+body {
+    background: linear-gradient(to right, purple, yellow, purple);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: goldenrod;
+    border-radius: 5px;
+}
+
+#hero .heading h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.background-img {
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-content1 {
+    margin-top: 60px;
+}
+
+.mission-content {
+    text-align: center;
+}
+
+.hero-content2 {
+    margin-top: 20px;
+}
+
+.grid-container {
+    margin-top: 40px;
+}
+
+.grid-cont1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+.grid-cont2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+.grid-cont3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+.grid-cont4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+.gallery-cont {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery-cont img {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .grid-cont1, .grid-cont2, .grid-cont3, .grid-cont4 {
+        grid-template-columns: 1fr;
+    }
+    .background-img {
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+}
