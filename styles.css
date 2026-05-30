@@ -1,45 +1,9 @@
-SS
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* GLOBAL */
-
-    /* --- General Styles --- */
-:root {
-    --primary: #2563eb;
-    --dark: #1f2937;
-    --light: #f3f4f6;
-    --text: #333;
-    --font-heading: 'Poppins', sans-serif;
-    --font-body: 'Roboto', sans-serif;
-}
-
-html {
-    scroll-behavior: smooth; /* Smooth scrolling */
-    font-family: var(--font-body);
-    color: var(--text);
-    line-height: 1.6;
-}
-.loader {
-    width: 2rem;
-    height: 2rem;
-    border: 3px solid rgb(189, 189, 189);
-    border-top: 5px solid black;
-    border-radius: 100%;
-    animation: loading 1s ease-in-out 2s infinite;
-}
-@keyframes loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 body {
   font-family: Arial, sans-serif;
@@ -120,15 +84,6 @@ header {
     border-right: 0px solid #e8ff47;
     animation: typing 3s steps(14) 0.5s infinite alternate-reverse;
 }
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 10ch;
-    }
-}
-
 .nav-links a:hover {
     color: var(--primary);
    
